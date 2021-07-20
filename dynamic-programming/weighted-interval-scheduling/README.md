@@ -1,8 +1,8 @@
 # Weighted Interval Scheduling Problem
 
-| Problem                                                |                                 Code                                 |             Algorithm              |
-| ------------------------------------------------------ | :------------------------------------------------------------------: | :--------------------------------: |
-| [회의실 배정 4](https://www.acmicpc.net/problem/19623) | [C++20 top-bottom](solution-1.cpp) [C++20 bottom-up](solution-2.cpp) | Dynamic Programming, Binary Search |
+| Problem                                                |                                   Code                                   |             Algorithm              |
+| ------------------------------------------------------ | :----------------------------------------------------------------------: | :--------------------------------: |
+| [회의실 배정 4](https://www.acmicpc.net/problem/19623) | [C++20 (top-bottom)](solution-1.cpp) [C++20 (bottom-up)](solution-2.cpp) | Dynamic Programming, Binary Search |
 
 ## Algorithm Design
 
