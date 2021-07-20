@@ -5,7 +5,9 @@ A spanning tree with minimum total edge cost is a minimum spanning tree (MST).
 ## Kruskal's
 
 ```text
-Sort all edges in increasing order of cost. Add edges to T in their order as long as it does not create a cycle. If it does, discard the edge.
+Sort all edges in increasing order of cost.
+Add edges to T in their order as long as it does not create a cycle.
+If it does, discard the edge.
 ```
 
 ```cpp
@@ -74,7 +76,9 @@ When |E| = m, overall time complexity for Kruskal's algorithm is O(mlogm) since 
 ## Prim's
 
 ```text
-Similar to Dijkstra's algorithm, start with a node set S (initially the root node) on which a minimum spanning tree has been constructed so far. At each step, grow S by one node, adding the node v that minimizes the attachement cost.
+Similar to Dijkstra's algorithm,
+start with a node set S (initially the root node) on which a minimum spanning tree has been constructed so far.
+At each step, grow S by one node, adding the node v that minimizes the attachement cost.
 ```
 
 ```cpp
