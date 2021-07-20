@@ -8,4 +8,4 @@ Sort requests in order of finish time and select requests that are compatible wi
 
 ## Complexity Analysis
 
-Sorting the requests would take O(nlogn) and selecting compatible requests would take O(n). Thus, the overall time complexity would be O(nlogn).
+Sorting the requests would take `O(nlogn)` and selecting compatible requests would take `O(n)`. Thus, the overall time complexity would be `O(nlogn)`.

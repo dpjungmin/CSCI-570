@@ -71,7 +71,7 @@ pair<int, vector<edge>> kruskal(int n, vector<vector<edge>> edges) {
 }
 ```
 
-When |E| = m, overall time complexity for Kruskal's algorithm is O(mlogm) since sorting is the most expensive operation.
+When `|E| = m`, overall time complexity for Kruskal's algorithm is `O(mlogm)` since sorting is the most expensive operation.
 
 ## Prim's
 
@@ -132,4 +132,4 @@ pair<int, vector<edge>> prim(int n, vector<vector<edge>> adj, int start) {
 }
 ```
 
-When |V| = n and |E| = m, overall time complexity is the same as Dijkstra's, which is O(mlogn). However, in our implementation, we do not have a Decrease_Key operation in our min-heap. We are simply inserting all edges, thus; our implementation would take O(mlogm).
+When `|V| = n` and `|E| = m`, overall time complexity is the same as Dijkstra's, which is `O(mlogn)`. However, in our implementation, we do not have a Decrease_Key operation in our min-heap. We are simply inserting all edges, thus; our implementation would take `O(mlogm)`.
