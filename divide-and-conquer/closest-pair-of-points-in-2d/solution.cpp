@@ -40,7 +40,7 @@ int main() {
             }
             return ret;
         }
-        // divide: O(n)
+        // divide
         int mid = (l + r) / 2;
         Point mid_point = px[mid];
         vector<Point> pyl, pyr;
@@ -51,10 +51,10 @@ int main() {
                 pyr.push_back(p);
             }
         }
-        // conquer: O(n)
+        // conquer
         int left = closest(pyl, l, mid);
         int right = closest(pyr, mid + 1, r);
-        // combine: O(n)
+        // combine
         int ret = min(left, right); // delta
         vector<Point> tmp;
         for (Point p : y) {
