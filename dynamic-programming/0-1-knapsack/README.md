@@ -1,8 +1,8 @@
 # 0-1 Knapsack Problem
 
-| Problem                                              |         Code          |      Algorithm      |
-| ---------------------------------------------------- | :-------------------: | :-----------------: |
-| [평범한 배낭](https://www.acmicpc.net/problem/12865) | [C++20](solution.cpp) | Dynamic Programming |
+> | Problem                                              |         Code          |      Algorithm      |
+> | ---------------------------------------------------- | :-------------------: | :-----------------: |
+> | [평범한 배낭](https://www.acmicpc.net/problem/12865) | [C++20](solution.cpp) | Dynamic Programming |
 
 ## Algorithm Design
 
@@ -22,7 +22,7 @@ else
 
 For the initialization step, we must set `OPT(0, w) = 0` for each `w` from `0` to the capacity of the knapsack.
 
-| If we only need the optimal value, we could reduce the two-dimensional array into a one-dimensional array, which would reduce a great amount of memory usage.
+> If we only need the optimal value, we could reduce the two-dimensional array into a one-dimensional array, which would reduce a great amount of memory usage.
 
 ## Complexity Analysis
 
