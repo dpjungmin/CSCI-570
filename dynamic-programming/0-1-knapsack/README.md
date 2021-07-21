@@ -1,8 +1,8 @@
 # 0-1 Knapsack Problem
 
-> | Problem                                              |         Code          |      Algorithm      |
-> | ---------------------------------------------------- | :-------------------: | :-----------------: |
-> | [평범한 배낭](https://www.acmicpc.net/problem/12865) | [C++20](solution.cpp) | Dynamic Programming |
+| Problem                                              |         Code          |      Algorithm      |
+| ---------------------------------------------------- | :-------------------: | :-----------------: |
+| [평범한 배낭](https://www.acmicpc.net/problem/12865) | [C++20](solution.cpp) | Dynamic Programming |
 
 ## Algorithm Design
 
